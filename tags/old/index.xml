@@ -1,34 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anders Bergh</title>
-    <link>https://bergh.link/</link>
-    <description>Recent content on Anders Bergh</description>
+    <title>old on Anders Bergh</title>
+    <link>https://bergh.link/tags/old/</link>
+    <description>Recent content in old on Anders Bergh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Anders Bergh 2019</copyright>
-    <lastBuildDate>Wed, 23 Oct 2019 19:08:28 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2014 00:53:28 +0200</lastBuildDate>
     
-	<atom:link href="https://bergh.link/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bergh.link/tags/old/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>https://bergh.link/about/</link>
-      <pubDate>Wed, 23 Oct 2019 19:08:28 +0200</pubDate>
-      
-      <guid>https://bergh.link/about/</guid>
-      <description>There should be something here, but what?</description>
-    </item>
-    
-    <item>
-      <title>First (new) post</title>
-      <link>https://bergh.link/posts/first-post/</link>
-      <pubDate>Wed, 23 Oct 2019 18:38:56 +0200</pubDate>
-      
-      <guid>https://bergh.link/posts/first-post/</guid>
-      <description>There are some older posts, as I migrated my old blog to this new one.</description>
-    </item>
     
     <item>
       <title>Debian / OS X Perl locale issue</title>

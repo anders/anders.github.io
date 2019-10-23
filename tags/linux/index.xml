@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Anders Bergh</title>
+    <link>https://bergh.link/tags/linux/</link>
+    <description>Recent content in linux on Anders Bergh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Anders Bergh 2019</copyright>
+    <lastBuildDate>Mon, 31 Mar 2014 00:53:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://bergh.link/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian / OS X Perl locale issue</title>
+      <link>https://bergh.link/posts/old-debian-osx-perl/</link>
+      <pubDate>Mon, 31 Mar 2014 00:53:28 +0200</pubDate>
+      
+      <guid>https://bergh.link/posts/old-debian-osx-perl/</guid>
+      <description>If you run see this when running Perl it&amp;rsquo;s because OS X Terminal.app sets LC_CTYPE to &amp;ldquo;UTF-8&amp;rdquo; when it should be a locale string like the others. Set it to en_US.UTF-8 to fix it.
+perl: warning: Setting locale failed. perl: warning: Please check that your locale settings: LANGUAGE = &amp;#34;en_US:en&amp;#34;, LC_ALL = (unset), LC_CTYPE = &amp;#34;UTF-8&amp;#34;, LANG = &amp;#34;en_US.UTF-8&amp;#34; are supported and installed on your system. perl: warning: Falling back to the standard locale (&amp;#34;C&amp;#34;).</description>
+    </item>
+    
+  </channel>
+</rss>
