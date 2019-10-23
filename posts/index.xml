@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Anders Bergh</title>
+    <link>https://bergh.link/posts/</link>
+    <description>Recent content in Posts on Anders Bergh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Anders Bergh 2019</copyright>
+    <lastBuildDate>Wed, 23 Oct 2019 18:38:56 +0200</lastBuildDate>
+    
+	<atom:link href="https://bergh.link/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First (new) post</title>
+      <link>https://bergh.link/posts/first-post/</link>
+      <pubDate>Wed, 23 Oct 2019 18:38:56 +0200</pubDate>
+      
+      <guid>https://bergh.link/posts/first-post/</guid>
+      <description>There are some older posts, as I migrated my old blog to this new one.</description>
+    </item>
+    
+    <item>
+      <title>Debian / OS X Perl locale issue</title>
+      <link>https://bergh.link/posts/old-debian-osx-perl/</link>
+      <pubDate>Mon, 31 Mar 2014 00:53:28 +0200</pubDate>
+      
+      <guid>https://bergh.link/posts/old-debian-osx-perl/</guid>
+      <description>If you run see this when running Perl it&amp;rsquo;s because OS X Terminal.app sets LC_CTYPE to &amp;ldquo;UTF-8&amp;rdquo; when it should be a locale string like the others. Set it to en_US.UTF-8 to fix it.
+perl: warning: Setting locale failed. perl: warning: Please check that your locale settings: LANGUAGE = &amp;#34;en_US:en&amp;#34;, LC_ALL = (unset), LC_CTYPE = &amp;#34;UTF-8&amp;#34;, LANG = &amp;#34;en_US.UTF-8&amp;#34; are supported and installed on your system. perl: warning: Falling back to the standard locale (&amp;#34;C&amp;#34;).</description>
+    </item>
+    
+    <item>
+      <title>Mac OS X Password Assistant API</title>
+      <link>https://bergh.link/posts/macosx-password-assistant-api/</link>
+      <pubDate>Sat, 02 Mar 2013 17:00:00 +0200</pubDate>
+      
+      <guid>https://bergh.link/posts/macosx-password-assistant-api/</guid>
+      <description>Keychain Access uses a private API in SecurityFoundation.framework to power the above dialog. I like the passwords it generates, but I wanted to use it from the terminal instead of launching Keychain Access every time I need a password.
+Last summer I used Hopper Disassembler and gdb to reverse engineer a few of the functions, which resulted in my tool sf-pwgen. Last month I dusted the code off a bit, and while doing so I added more function declarations.</description>
+    </item>
+    
+    <item>
+      <title>Remove duplicate tracks in an iTunes playlist</title>
+      <link>https://bergh.link/posts/old-remove-dupl-tracks-applescript/</link>
+      <pubDate>Sat, 26 May 2012 13:37:00 +0200</pubDate>
+      
+      <guid>https://bergh.link/posts/old-remove-dupl-tracks-applescript/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>How to determine the DHCPv6 DUID in Lion</title>
+      <link>https://bergh.link/posts/old-dhcpv6-duid-lion/</link>
+      <pubDate>Sun, 29 Jan 2012 13:37:00 +0200</pubDate>
+      
+      <guid>https://bergh.link/posts/old-dhcpv6-duid-lion/</guid>
+      <description>I couldn&amp;rsquo;t find this on Google, even after many hours of searching. I managed to figure it out eventually. Here&amp;rsquo;s how (output slightly modified):
+ </description>
+    </item>
+    
+    <item>
+      <title>Adding the currently playing track to a playlist using AppleScript</title>
+      <link>https://bergh.link/posts/old-applescript-current-track-playlist/</link>
+      <pubDate>Mon, 31 Oct 2011 13:37:00 +0200</pubDate>
+      
+      <guid>https://bergh.link/posts/old-applescript-current-track-playlist/</guid>
+      <description>I&amp;rsquo;m not very good at using AppleScript, but here&amp;rsquo;s a simple script that you or someone else might find useful.
+ </description>
+    </item>
+    
+    <item>
+      <title>Restoring the Recovery HD in Mac OS X Lion perfectly</title>
+      <link>https://bergh.link/posts/old-recovery-hd/</link>
+      <pubDate>Sun, 30 Oct 2011 13:37:00 +0200</pubDate>
+      
+      <guid>https://bergh.link/posts/old-recovery-hd/</guid>
+      <description>Background:
+I have an iMac. It originally came with Snow Leopard installed. I upgraded to Lion but later realized I wanted a clean install, so I installed Lion to an external drive and then restore it onto the iMac HDD. I used Carbon Copy Cloner (CCC) to do that, but it turned out that CCC won&amp;rsquo;t copy the hidden Recovery HD partition&amp;hellip;
+The procedure:
+ Install Lion in VMware Fusion 4.</description>
+    </item>
+    
+    <item>
+      <title>Add current track to monthly playlist</title>
+      <link>https://bergh.link/posts/old-add-current-track/</link>
+      <pubDate>Thu, 26 May 2011 13:37:00 +0200</pubDate>
+      
+      <guid>https://bergh.link/posts/old-add-current-track/</guid>
+      <description>This script will add the currently playing track to a monthly playlist (format: YYYY-mm). It creates it if it doesn&amp;rsquo;t exist. I&amp;rsquo;ve bound the script to F6 using Quicksilver.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

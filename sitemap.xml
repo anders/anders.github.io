@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://bergh.link/about/</loc>
+    <lastmod>2019-10-23T19:08:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/</loc>
+    <lastmod>2019-10-23T19:08:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/first-post/</loc>
+    <lastmod>2019-10-23T18:38:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/</loc>
+    <lastmod>2019-10-23T18:38:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/old-debian-osx-perl/</loc>
+    <lastmod>2014-03-31T00:53:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/tags/linux/</loc>
+    <lastmod>2014-03-31T00:53:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/tags/old/</loc>
+    <lastmod>2014-03-31T00:53:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/tags/</loc>
+    <lastmod>2014-03-31T00:53:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/macosx-password-assistant-api/</loc>
+    <lastmod>2013-03-02T17:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/tags/applescript/</loc>
+    <lastmod>2012-05-26T13:37:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/old-remove-dupl-tracks-applescript/</loc>
+    <lastmod>2012-05-26T13:37:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/old-dhcpv6-duid-lion/</loc>
+    <lastmod>2012-01-29T13:37:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/tags/ipv6/</loc>
+    <lastmod>2012-01-29T13:37:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/old-applescript-current-track-playlist/</loc>
+    <lastmod>2011-10-31T13:37:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/old-recovery-hd/</loc>
+    <lastmod>2011-10-30T13:37:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/old-add-current-track/</loc>
+    <lastmod>2011-05-26T13:37:00+02:00</lastmod>
+  </url>
+  
+</urlset>
