@@ -6,7 +6,7 @@
     <description>Recent content in ipv6 on Anders Bergh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Anders Bergh 2019</copyright>
+    <copyright>© Anders Bergh 2020</copyright>
     <lastBuildDate>Sun, 29 Jan 2012 13:37:00 +0200</lastBuildDate>
     
 	<atom:link href="https://bergh.link/tags/ipv6/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,7 @@
       <pubDate>Sun, 29 Jan 2012 13:37:00 +0200</pubDate>
       
       <guid>https://bergh.link/posts/old-dhcpv6-duid-lion/</guid>
-      <description>I couldn&amp;rsquo;t find this on Google, even after many hours of searching. I managed to figure it out eventually. Here&amp;rsquo;s how (output slightly modified):
- </description>
+      <description>I couldn&amp;rsquo;t find this on Google, even after many hours of searching. I managed to figure it out eventually. Here&amp;rsquo;s how (output slightly modified):</description>
     </item>
     
   </channel>

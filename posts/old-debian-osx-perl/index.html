@@ -49,6 +49,10 @@
 				<a href="/tags">Tags</a>
 			</li>
 			
+			<li>
+				<a href="/projects">Projects</a>
+			</li>
+			
 		</ul>
 	</nav>
 </div>
@@ -61,16 +65,18 @@
 
 		<div class="markdown">
 			<p>If you run see this when running Perl it&rsquo;s because OS X Terminal.app sets LC_CTYPE to &ldquo;UTF-8&rdquo; when it should be a locale string like the others. Set it to en_US.UTF-8 to fix it.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">perl: warning: Setting locale failed.
+<pre><code>perl: warning: Setting locale failed.
 perl: warning: Please check that your locale settings:
-    LANGUAGE = &#34;en_US:en&#34;,
+    LANGUAGE = &quot;en_US:en&quot;,
     LC_ALL = (unset),
-    LC_CTYPE = &#34;UTF-8&#34;,
-    LANG = &#34;en_US.UTF-8&#34;
+    LC_CTYPE = &quot;UTF-8&quot;,
+    LANG = &quot;en_US.UTF-8&quot;
     are supported and installed on your system.
-perl: warning: Falling back to the standard locale (&#34;C&#34;).
+perl: warning: Falling back to the standard locale (&quot;C&quot;).
 locale: Cannot set LC_CTYPE to default locale: No such file or directory
-locale: Cannot set LC_ALL to default locale: No such file or directory</pre></div>
+locale: Cannot set LC_ALL to default locale: No such file or directory
+</code></pre>
+
 		</div>
 
 		<div class="post-tags">
@@ -91,7 +97,7 @@ locale: Cannot set LC_ALL to default locale: No such file or directory</pre></di
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
-		<div> © Anders Bergh 2019 |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+		<div> © Anders Bergh 2020 |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
 </div><script>feather.replace()</script>
 </body>

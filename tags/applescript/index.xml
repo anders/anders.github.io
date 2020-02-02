@@ -6,7 +6,7 @@
     <description>Recent content in applescript on Anders Bergh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Anders Bergh 2019</copyright>
+    <copyright>© Anders Bergh 2020</copyright>
     <lastBuildDate>Sat, 26 May 2012 13:37:00 +0200</lastBuildDate>
     
 	<atom:link href="https://bergh.link/tags/applescript/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <pubDate>Sat, 26 May 2012 13:37:00 +0200</pubDate>
       
       <guid>https://bergh.link/posts/old-remove-dupl-tracks-applescript/</guid>
-      <description> </description>
+      <description></description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@
       <pubDate>Mon, 31 Oct 2011 13:37:00 +0200</pubDate>
       
       <guid>https://bergh.link/posts/old-applescript-current-track-playlist/</guid>
-      <description>I&amp;rsquo;m not very good at using AppleScript, but here&amp;rsquo;s a simple script that you or someone else might find useful.
- </description>
+      <description>I&amp;rsquo;m not very good at using AppleScript, but here&amp;rsquo;s a simple script that you or someone else might find useful.</description>
     </item>
     
     <item>
@@ -37,8 +36,7 @@
       <pubDate>Thu, 26 May 2011 13:37:00 +0200</pubDate>
       
       <guid>https://bergh.link/posts/old-add-current-track/</guid>
-      <description>This script will add the currently playing track to a monthly playlist (format: YYYY-mm). It creates it if it doesn&amp;rsquo;t exist. I&amp;rsquo;ve bound the script to F6 using Quicksilver.
- </description>
+      <description>This script will add the currently playing track to a monthly playlist (format: YYYY-mm). It creates it if it doesn&amp;rsquo;t exist. I&amp;rsquo;ve bound the script to F6 using Quicksilver.</description>
     </item>
     
   </channel>

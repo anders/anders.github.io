@@ -6,11 +6,39 @@
     <description>Recent content on Anders Bergh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Anders Bergh 2019</copyright>
-    <lastBuildDate>Wed, 23 Oct 2019 19:08:28 +0200</lastBuildDate>
+    <copyright>© Anders Bergh 2020</copyright>
+    <lastBuildDate>Sun, 02 Feb 2020 19:10:00 +0200</lastBuildDate>
     
 	<atom:link href="https://bergh.link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go modules</title>
+      <link>https://bergh.link/posts/go-modules/</link>
+      <pubDate>Sun, 02 Feb 2020 19:10:00 +0200</pubDate>
+      
+      <guid>https://bergh.link/posts/go-modules/</guid>
+      <description>A list of my Go projects has been added: /projects/go-modules.</description>
+    </item>
+    
+    <item>
+      <title>Go modules</title>
+      <link>https://bergh.link/projects/go-modules/</link>
+      <pubDate>Sun, 02 Feb 2020 19:06:00 +0200</pubDate>
+      
+      <guid>https://bergh.link/projects/go-modules/</guid>
+      <description>gronox Not yet released, more info later.
+ics https://github.com/anders/ics
+A simple iCal encoder.
+jutf https://github.com/anders/jutf
+Converting to/from Java UTF-8 strings (DataInput/OutputStream).
+panosplit https://github.com/anders/panosplit
+One of my first Go programs, splits an image into square parts. Looks nice on Instagram.
+plessey https://github.com/anders/plessey
+UK Plessey barcode calculation.
+strutils https://github.com/anders/strutils
+String functions used by my other projects / libraries.</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -37,7 +65,7 @@
       
       <guid>https://bergh.link/posts/old-debian-osx-perl/</guid>
       <description>If you run see this when running Perl it&amp;rsquo;s because OS X Terminal.app sets LC_CTYPE to &amp;ldquo;UTF-8&amp;rdquo; when it should be a locale string like the others. Set it to en_US.UTF-8 to fix it.
-perl: warning: Setting locale failed. perl: warning: Please check that your locale settings: LANGUAGE = &amp;#34;en_US:en&amp;#34;, LC_ALL = (unset), LC_CTYPE = &amp;#34;UTF-8&amp;#34;, LANG = &amp;#34;en_US.UTF-8&amp;#34; are supported and installed on your system. perl: warning: Falling back to the standard locale (&amp;#34;C&amp;#34;).</description>
+perl: warning: Setting locale failed. perl: warning: Please check that your locale settings: LANGUAGE = &amp;quot;en_US:en&amp;quot;, LC_ALL = (unset), LC_CTYPE = &amp;quot;UTF-8&amp;quot;, LANG = &amp;quot;en_US.UTF-8&amp;quot; are supported and installed on your system. perl: warning: Falling back to the standard locale (&amp;quot;C&amp;quot;).</description>
     </item>
     
     <item>
@@ -56,7 +84,7 @@ Last summer I used Hopper Disassembler and gdb to reverse engineer a few of the 
       <pubDate>Sat, 26 May 2012 13:37:00 +0200</pubDate>
       
       <guid>https://bergh.link/posts/old-remove-dupl-tracks-applescript/</guid>
-      <description> </description>
+      <description></description>
     </item>
     
     <item>
@@ -65,8 +93,7 @@ Last summer I used Hopper Disassembler and gdb to reverse engineer a few of the 
       <pubDate>Sun, 29 Jan 2012 13:37:00 +0200</pubDate>
       
       <guid>https://bergh.link/posts/old-dhcpv6-duid-lion/</guid>
-      <description>I couldn&amp;rsquo;t find this on Google, even after many hours of searching. I managed to figure it out eventually. Here&amp;rsquo;s how (output slightly modified):
- </description>
+      <description>I couldn&amp;rsquo;t find this on Google, even after many hours of searching. I managed to figure it out eventually. Here&amp;rsquo;s how (output slightly modified):</description>
     </item>
     
     <item>
@@ -75,8 +102,7 @@ Last summer I used Hopper Disassembler and gdb to reverse engineer a few of the 
       <pubDate>Mon, 31 Oct 2011 13:37:00 +0200</pubDate>
       
       <guid>https://bergh.link/posts/old-applescript-current-track-playlist/</guid>
-      <description>I&amp;rsquo;m not very good at using AppleScript, but here&amp;rsquo;s a simple script that you or someone else might find useful.
- </description>
+      <description>I&amp;rsquo;m not very good at using AppleScript, but here&amp;rsquo;s a simple script that you or someone else might find useful.</description>
     </item>
     
     <item>
@@ -88,7 +114,7 @@ Last summer I used Hopper Disassembler and gdb to reverse engineer a few of the 
       <description>Background:
 I have an iMac. It originally came with Snow Leopard installed. I upgraded to Lion but later realized I wanted a clean install, so I installed Lion to an external drive and then restore it onto the iMac HDD. I used Carbon Copy Cloner (CCC) to do that, but it turned out that CCC won&amp;rsquo;t copy the hidden Recovery HD partition&amp;hellip;
 The procedure:
- Install Lion in VMware Fusion 4.</description>
+  Install Lion in VMware Fusion 4.</description>
     </item>
     
     <item>
@@ -97,8 +123,7 @@ The procedure:
       <pubDate>Thu, 26 May 2011 13:37:00 +0200</pubDate>
       
       <guid>https://bergh.link/posts/old-add-current-track/</guid>
-      <description>This script will add the currently playing track to a monthly playlist (format: YYYY-mm). It creates it if it doesn&amp;rsquo;t exist. I&amp;rsquo;ve bound the script to F6 using Quicksilver.
- </description>
+      <description>This script will add the currently playing track to a monthly playlist (format: YYYY-mm). It creates it if it doesn&amp;rsquo;t exist. I&amp;rsquo;ve bound the script to F6 using Quicksilver.</description>
     </item>
     
   </channel>

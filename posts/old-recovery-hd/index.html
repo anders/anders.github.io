@@ -49,6 +49,10 @@
 				<a href="/tags">Tags</a>
 			</li>
 			
+			<li>
+				<a href="/projects">Projects</a>
+			</li>
+			
 		</ul>
 	</nav>
 </div>
@@ -61,34 +65,30 @@
 
 		<div class="markdown">
 			<p><strong>Background:</strong></p>
-
 <p>I have an iMac. It originally came with Snow Leopard installed. I upgraded to Lion but later realized I wanted a clean install, so I installed Lion to an external drive and then restore it onto the iMac HDD. I used Carbon Copy Cloner (CCC) to do that, but it turned out that CCC won&rsquo;t copy the hidden Recovery HD partition&hellip;</p>
-
 <p><strong>The procedure:</strong></p>
-
 <ol>
-<li><p>Install Lion in VMware Fusion 4. This is quite easy, you just choose the Lion installer app instead of a disk image when setting up a new VM.</p></li>
-
-<li><p>Copy the <code>disk0s3</code> (recovery partition) to a file in the VM, then copy it to the host. This is accomplished using dd.</p></li>
-
-<li><p>Restore the recovery clone to the host <code>disk0s3</code> (note: the GPT layout must match). The following GPT is for my 1 TB drive. <script src="https://gist.github.com/2793191.js" type="text/javascript"></script></p></li>
-
-<li><p>Set the &ldquo;Media Name&rdquo; of the recovery partition to &ldquo;Recovery HD&rdquo; to make it fully compatible with OS X. This can either be done using the <code>gpt</code> tool or <code>parted</code> from a Linux live CD. I used the latter.</p></li>
+<li>
+<p>Install Lion in VMware Fusion 4. This is quite easy, you just choose the Lion installer app instead of a disk image when setting up a new VM.</p>
+</li>
+<li>
+<p>Copy the <code>disk0s3</code> (recovery partition) to a file in the VM, then copy it to the host. This is accomplished using dd.</p>
+</li>
+<li>
+<p>Restore the recovery clone to the host <code>disk0s3</code> (note: the GPT layout must match). The following GPT is for my 1 TB drive. <!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</li>
+<li>
+<p>Set the &ldquo;Media Name&rdquo; of the recovery partition to &ldquo;Recovery HD&rdquo; to make it fully compatible with OS X. This can either be done using the <code>gpt</code> tool or <code>parted</code> from a Linux live CD. I used the latter.</p>
+</li>
 </ol>
-
 <p>To change it using <code>gpt</code> (note, you have to do it from an OS X installer/recovery environment that runs off a different drive than the drive you&rsquo;re modifying):</p>
-
 <p>Using <code>gpt</code>: <code>gpt label -i 3 -l &quot;Recovery HD&quot; disk0</code>.</p>
-
 <p>Using <code>parted</code>: <code>name 2 'Recovery HD'</code> (not sure if it&rsquo;s 2 or 3, verify using <code>print</code> before running it)</p>
-
 <p>If you&rsquo;re interested in doing this yourself, I recommend you read these two blog posts that helped me along the way:</p>
-
 <ul>
 <li><a href="http://dmitry-dulepov.com/article/how-to-create-a-mac-os-x-lion-recovery-partition.html">Dmitry Dulepov: How to create a Mac OS X Lion recovery partition</a></li>
 <li><a href="http://dmitry-dulepov.com/article/mac-recovery-partion-revisited.html">Dmitry Dulepov: Mac recovery partion: revisited</a></li>
 </ul>
-
 <p>His instructions don&rsquo;t take the media name into account, which makes certain tools like the Apple Recovery Disk Assistant fail. That&rsquo;s what I solved today, hope it helps someone out there! :)</p>
 
 		</div>
@@ -109,7 +109,7 @@
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
-		<div> © Anders Bergh 2019 |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+		<div> © Anders Bergh 2020 |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
 </div><script>feather.replace()</script>
 </body>

@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bergh.link/</loc>
+    <lastmod>2020-02-02T19:10:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/go-modules/</loc>
+    <lastmod>2020-02-02T19:10:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/posts/</loc>
+    <lastmod>2020-02-02T19:10:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/projects/go-modules/</loc>
+    <lastmod>2020-02-02T19:06:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bergh.link/projects/</loc>
+    <lastmod>2020-02-02T19:06:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bergh.link/about/</loc>
     <lastmod>2019-10-23T19:08:28+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bergh.link/</loc>
-    <lastmod>2019-10-23T19:08:28+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bergh.link/posts/first-post/</loc>
-    <lastmod>2019-10-23T18:38:56+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bergh.link/posts/</loc>
     <lastmod>2019-10-23T18:38:56+02:00</lastmod>
   </url>
   

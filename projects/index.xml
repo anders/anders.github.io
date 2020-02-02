@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Anders Bergh</title>
+    <link>https://bergh.link/projects/</link>
+    <description>Recent content in Projects on Anders Bergh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Anders Bergh 2020</copyright>
+    <lastBuildDate>Sun, 02 Feb 2020 19:06:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://bergh.link/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go modules</title>
+      <link>https://bergh.link/projects/go-modules/</link>
+      <pubDate>Sun, 02 Feb 2020 19:06:00 +0200</pubDate>
+      
+      <guid>https://bergh.link/projects/go-modules/</guid>
+      <description>gronox Not yet released, more info later.
+ics https://github.com/anders/ics
+A simple iCal encoder.
+jutf https://github.com/anders/jutf
+Converting to/from Java UTF-8 strings (DataInput/OutputStream).
+panosplit https://github.com/anders/panosplit
+One of my first Go programs, splits an image into square parts. Looks nice on Instagram.
+plessey https://github.com/anders/plessey
+UK Plessey barcode calculation.
+strutils https://github.com/anders/strutils
+String functions used by my other projects / libraries.</description>
+    </item>
+    
+  </channel>
+</rss>
